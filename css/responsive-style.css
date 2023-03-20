@@ -1,0 +1,204 @@
+/* Media Query 1400px */
+@media (max-width: 1400px) {
+    /* Services CSS Part Start */
+    .sevices_wrapper .accordion-body .card h3 {
+        font-size: 1.6rem;
+    }
+    .sevices_wrapper .accordion-body .card {
+        padding: 2rem;
+    }
+    /* Services CSS Part End */
+}
+/* Media Query 1251px */
+@media (max-width: 1251px) {
+    /* Common CSS Part Start */
+    h1 {
+        font-size: 4.375rem;
+    }
+    h2 {
+        font-size: 2.1875rem;
+    }
+    h3 {
+        font-size: 1.4375rem;
+    }
+    /* Common CSS Part End */
+    /* Accordion CSS Part Start */
+    .main_menu_wrapper .accordion-body {
+        padding: 2.25rem;
+    }
+    .about_wrapper .accordion-body .card_detail {
+        padding: 0.625rem;
+        top: 1.75rem;
+    }
+    .about_wrapper .accordion-body .card_detail ul li {
+        padding: 0.3125rem;
+    }
+    /* Accordion CSS Part End */
+    /* Services CSS Part Start */
+    .sevices_wrapper .accordion-body .card h3 {
+        font-size: 1.3rem;
+    }
+    .sevices_wrapper .accordion-body .card {
+        padding: 1.6rem;
+    }
+    /* Services CSS Part End */
+}
+/* Media Query 992px */
+@media (max-width: 992px) {
+    /* Common CSS Part Start */
+    h1 {
+        font-size: 3.125rem;
+        line-height: 1.3;
+    }
+    h2 {
+        font-size: 1.875rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    a {
+        font-size: 1rem;
+    }
+    .icon-design {
+        width: 4.625rem;
+        height: 4.625rem;
+    }
+    /* Common CSS Part End */
+    /* Accordion CSS Part Start */
+    .main_menu_wrapper .accordion-header .accordion-button {
+        line-height: 5.875rem;
+    }
+    .main_menu_wrapper .accordion-header .accordion-button::after,
+    .main_menu_wrapper .accordion-header .icon-box {
+        width: 6rem;
+    }
+    /* Accordion CSS Part End */
+    /* Testimonial CSS Part End */
+    .testimonial_wrapper .accordion-body .carousel-item .profile-box {
+        padding: 1rem;
+    }
+    .testimonial_wrapper .accordion-body .carousel-item .card {
+        padding: 1.125rem;
+    }
+    .testimonial_wrapper .accordion-body .carousel-item .card .desc-box {
+        padding: 1rem;
+    }
+    /* Testimonial CSS Part End */
+}
+/* Media Query 767px */
+@media (max-width: 767px){
+    /* Common CSS Part Start */
+    h1 {
+        font-size: 1.875rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1.125rem;
+    }
+    h5 {
+        font-size: 0.9375rem;
+    }
+    p {
+        font-size: 0.875rem;
+    }
+    /* Common CSS Part End */
+    /* Resume CSS Part Start */
+    .resume_wrapper .title h2 {
+        font-size: 1.25rem;
+    }
+    .resume_wrapper h4 {
+        font-size: 1rem !important;
+    }
+    /* Resume CSS Part End */
+    /* Services CSS Part Start */
+    .sevices_wrapper .accordion-body .card {
+        padding: 1.75rem 1.5rem;
+    }
+    /* Services CSS Part End */
+}
+/* Media Query 576px */
+@media (max-width: 576px) {
+    /* Common CSS Part Start */
+    a {
+        font-size: 0.8125rem;
+    }
+    .main-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8125rem;
+    }
+    /* Common CSS Part End */
+    /* Navbar CSS Part Start */
+    .header_wrapper .navbar-brand img {
+        max-width: 6.75rem;
+    }
+    /* Navbar CSS Part End */
+    /* Banner CSS Part Start */
+    .banner_wrapper .social-icon a img {
+        width: 2.125rem;
+        height: 2.125rem;
+    }
+    /* Banner CSS Part End */
+    /* Accordion CSS Part Start */
+    .main_menu_wrapper .accordion-header .accordion-button {
+        line-height: 3.875rem;
+    }
+    .main_menu_wrapper .accordion-header .accordion-button::after,
+    .main_menu_wrapper .accordion-header .icon-box {
+        width: 4rem;
+    }
+    .main_menu_wrapper .accordion-header .icon-box img {
+        width: 1.875rem;
+    }
+    .main_menu_wrapper .accordion-header .accordion-button::after {
+        background-size: 1.7rem;
+    }
+    .main_menu_wrapper .accordion-body {
+        padding: 1.25rem;
+    }
+    /* Accordion CSS Part End */
+    /* Resume CSS Part Start */
+    .resume_wrapper .year span {
+        font-size: 0.875rem;
+        padding: 0.4375rem 1.875rem;
+        margin-top: 1.25em;
+        display: inline-block;
+    }
+    /* Resume CSS Part End */
+    /* Testimonial CSS Part End */
+    .testimonial_wrapper .accordion-body .carousel-indicators {
+        bottom: -1rem;
+    }
+    .testimonial_wrapper .accordion-body .carousel-item .profile-box {
+        text-align: center;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .testimonial_wrapper .accordion-body .carousel-item .card {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    .testimonial_wrapper .accordion-body .carousel-item .profile-box img {
+        width: 100%;
+    }
+    /* Testimonial CSS Part End */
+}
+/* Media Query 490px */
+@media (max-width: 490px) {
+    /* About CSS Part Start */
+    .about_wrapper .accordion-body .card_img {
+        display: none;
+    }
+    .about_wrapper .accordion-body .card_detail {
+        position: unset;
+        width: 100%;
+    }
+    /* About CSS Part End */
+    /* Portfolio CSS Part Start */
+    .portfoilo_wrapper .accordion-body .nav-pills .nav-item .nav-link {
+        padding: 0 0.625rem;
+    }
+    .portfoilo_wrapper .accordion-body .tab-content .portfolio-img {
+        min-height: unset;
+    }
+    /* Portfolio CSS Part End */
+}
